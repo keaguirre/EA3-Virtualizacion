@@ -13,7 +13,7 @@
 ---
 
 ## Pasos para desplegar
-
+** Las Passwords de MySQL y WordPress están configuradas como `Duoc.2025` en los archivos de configuración. **
 ### 1. Crear los namespaces
 ```bash
 kubectl apply -f namespaces.yaml
