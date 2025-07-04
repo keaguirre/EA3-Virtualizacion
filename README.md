@@ -3,12 +3,12 @@
 ## 📁 Estructura del repositorio
 ```bashg
 .
-├── manual-pv.yaml               # PersistentVolumes para MySQL y WordPress
-├── mysql-deployment.yaml        # Service y Deployment de MySQL
-├── mysql-pvc.yaml               # PersistentVolumeClaim de MySQL
-├── wordpress-deployment.yaml    # Service (NodePort) y Deployment de WordPress
-├── wordpress-pvc.yaml           # PersistentVolumeClaim de WordPress
-├── namespaces.yaml              # Namespaces "mysql" y "wordpress"
+├── 📄manual-pv.yaml               # PersistentVolumes para MySQL y WordPress
+├── 📄mysql-deployment.yaml        # Service y Deployment de MySQL
+├── 📄mysql-pvc.yaml               # PersistentVolumeClaim de MySQL
+├── 📄wordpress-deployment.yaml    # Service (NodePort) y Deployment de WordPress
+├── 📄wordpress-pvc.yaml           # PersistentVolumeClaim de WordPress
+└── 📄namespaces.yaml              # Namespaces "mysql" y "wordpress"
 ```
 ---
 
