@@ -53,3 +53,25 @@ Usa la IP del nodo + el puerto `30080` para acceder desde tu navegador:
 ```
 http://<NODE-IP>:30080
 ```
+
+## Validar MySQL
+Puedes conectarte a MySQL usando un cliente MySQL o desde la línea de comandos:
+
+```bash
+kubectl get pods -n mysql
+```
+### Result
+```bash
+NAME                     READY   STATUS    RESTARTS   AGE
+mysql-6dddf7bd8c-sl5xp   1/1     Running   0          50m
+```
+```bash
+kubectl exec -it <mysql-pod-name> -n mysql -- mysql -u wpuser -p
+```
+Ingresa la contraseña `Duoc.2025` cuando se te solicite.
+
+```sql
+SHOW DATABASES;
+USE wordpress;
+SHOW TABLES;
+```
